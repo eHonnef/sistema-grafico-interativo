@@ -1,0 +1,13 @@
+#ifndef GRAPHIC_TYPES_H
+#define GRAPHIC_TYPES_H
+
+enum GraphicType {
+  POINT,
+  LINE,
+  WIREFRAME,
+  POLYGON,
+  CURVE_BEZIER,
+  CURVE_SPLINE
+};
+
+#endif  // GRAPHIC_TYPES_H
